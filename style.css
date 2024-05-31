@@ -15,12 +15,11 @@ body{
 }
 img{
     width: 200px;
-
 }
 main{
     display: flex;
     background-color: white;
-    max-width: 400px;
+    max-width: 450px;
     max-height: fit-content;
     margin: auto;
     margin-top: 10vh;
