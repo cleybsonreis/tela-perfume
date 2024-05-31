@@ -20,7 +20,7 @@ img{
 main{
     display: flex;
     background-color: white;
-    max-width: 450px;
+    max-width: 400px;
     margin: auto;
     margin-top: 10vh;
     text-align: center;
@@ -29,8 +29,8 @@ main{
     height: fit-content;
     padding-bottom: -10px;
 }
-section{
-    
+picture{
+    margin-bottom: -5px;
 }
 h1{
     font-family: Montserrat, sans-serif ;
