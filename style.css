@@ -13,3 +13,15 @@ Roboto Condensed
 body{
     background-color: #e2dad3;
 }
+img{
+    width: 200px;
+
+}
+main{
+    display: flex;
+    background-color: white;
+    max-width: 400px;
+    max-height: fit-content;
+    margin: auto;
+    margin-top: 10vh;
+}
