@@ -15,16 +15,13 @@ body{
 .placa{
     background-color: white;
     display: flex;
-    max-width: 600px;
+    max-height: 50%;
     border-radius: 12px;
     padding: 0px 25px 0px 0px ;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    max-width: 640px;
 }
 .ft_pf{
-    width: 50%;
+    width: 80%;
     border-radius: 12px;
     border-bottom-right-radius: 0px;
     border-top-right-radius: 0px;
@@ -50,10 +47,11 @@ h1{
 }
 .descricao{
     font-family: Monstserrat, sans-serif;
-    font-size: 17px;
+    font-size: 1em;
     color: rgba(128, 128, 128, 0.774);
     font-weight: 600;
-    padding: 0px 0px 20px 20px;
+    margin: 0px 0px 10px 10px;
+    max-width: 270px;
 }
 .desconto{
     color: #3d8168;
