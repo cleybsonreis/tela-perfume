@@ -13,7 +13,7 @@ Roboto Condensed
 body{
     background-color: #e2dad3;
 }
-img{
+.ft{
     width: 100%;
     border-top-left-radius: 10px;
 }
@@ -28,10 +28,57 @@ main{
     border-top-left-radius: 10px;
     height: fit-content;
     padding-bottom: -10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.226);
+    border: 1px solid rgba(0, 0, 0, 0.253);
 }
 picture{
     margin-bottom: -5px;
 }
 h1{
     font-family: Montserrat, sans-serif ;
+    text-shadow: 1px 0px black;
+    font-size: 1.5em;
+}
+.texto{
+    font-family: Fraunces, sans-serif ;
+    font-size: 1em;
+    padding: 10px 0px 10px 0px;
+}
+.descont{
+    font-size: 1.5em;
+    font-family: Fraunces, sans-serif ;
+    color:  #316854;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.price{
+    font-size: 0.8em;
+    vertical-align:top;
+    font-family: Fraunces, sans-serif;
+    text-decoration: line-through;
+    display: block;
+}
+#num{
+ display: flex;
+ display: inline-block;
+}
+.link{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1em;
+}
+.cart{
+    width: 20px;
+    vertical-align: bottom;
+}
+.buy{
+    display: flex;
+    display: inline-block;
+    background-color: #316854;
+    padding: 10px;
+    border-radius: 10px;
+}
+.link:hover{
+    text-decoration: underline;
 }
